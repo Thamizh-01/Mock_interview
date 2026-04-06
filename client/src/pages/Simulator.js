@@ -199,7 +199,7 @@ const Simulator = () => {
               <button className="modal-close" onClick={toggleAnswerModal}>×</button>
             </div>
             <div className="modal-body">
-              <p>{currentQuestion?.a}</p>
+              <div className="answer-box">{currentQuestion?.a}</div>
             </div>
             <div className="modal-footer">
               <button className="btn-primary" onClick={toggleAnswerModal}>Close</button>

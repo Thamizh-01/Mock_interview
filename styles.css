@@ -321,6 +321,21 @@
     width: 100%;
 }
 
+.answer-box {
+    background: var(--glass);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    color: #e2e8f0;
+    line-height: 1.8;
+    font-size: 1.05rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: center;
+    max-width: 100%;
+    display: block;
+}
+
 .modal-footer {
     padding: 1.5rem;
     border-top: 1px solid #334155;
