@@ -1,5 +1,14 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/client/$1" }
+  "builds": [
+    {
+      "src": "client",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/client/$1"
+    }
   ]
 }
